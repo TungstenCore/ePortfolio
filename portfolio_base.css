@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*
+Name: Jonathan Barrett
+Date: 2023-02-01
+*/
+body{
+       background-color: blanchedalmond;
+       color: darkolivegreen;
+       font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(152, 19, 46);
+}
+
+ul{
+    list-style-type: circle;
+}
+
+nav{
+    text-align: center;
+}

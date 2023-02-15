@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*
+Author: Jonathan Barrett
+Date: 2023-02-15
+*/
+
+.item1{
+    grid-area: title;
+    text-align: center;
+}
+.item2{
+    grid-area: contact;
+}
+
+.item3{
+    grid-area: skills;
+}
+
+.item4{
+    grid-area: education;
+}
+
+.item5{
+    grid-area: languages;
+}
+
+.item6{
+    grid-area: profile;
+}
+
+.item7{
+    grid-area: experince;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'title title title'
+      'contact profile profile'
+      'skills experince experince'
+      'education experince experince'
+      'education experince experince'
+      'languages experince experince';
+    gap: 10px;
+
+    padding: 10px;
+  }

@@ -4,43 +4,80 @@ Author: Jonathan Barrett
 Date: 2023-02-15
 */
 
-.item1{
-    grid-area: title;
-    text-align: center;
-}
-.item2{
-    grid-area: contact;
-}
 
-.item3{
-    grid-area: skills;
-}
-
-.item4{
-    grid-area: education;
-}
-
-.item5{
-    grid-area: languages;
-}
-
-.item6{
-    grid-area: profile;
-}
-
-.item7{
-    grid-area: experince;
-}
 .grid-container {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
     grid-template-areas:
-      'title title title'
-      'contact profile profile'
-      'skills experince experince'
-      'education experince experince'
-      'education experince experince'
-      'languages experince experince';
-    gap: 10px;
+    "title title title"
+    "contact profile profile"
+    "Skills skills skills"
+    "education experince experince"
+    "education experince experince"
+    "languages experince experince";
+    grid-gap: 0.2rem;
+    
+ }
 
-    padding: 10px;
-  }
+.title{
+    grid-area: title;
+    text-align: center;
+    overflow-wrap: normal;
+}
+.contact{
+    grid-area: contact;
+    text-align: center;
+    overflow-wrap: normal;
+}
+
+.skills{
+    grid-area: skills;
+    text-align: center;
+    overflow-wrap: normal;
+}
+
+.education{
+    grid-area: education;
+    text-align: center;
+    overflow-wrap: normal;
+}
+
+.languages{
+    grid-area: languages;
+    text-align: center;
+    overflow-wrap: normal;
+}
+
+.profile{
+    grid-area: profile;
+    text-align: center;
+    overflow-wrap: normal;
+}
+
+.experince{
+    grid-area: experince;
+    text-align: center;
+    overflow-wrap: normal;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        grid-template-areas:
+        "title"
+        "contact"
+        "profile"
+        "Skills"
+        "education"
+        "experince"
+        "languages" 
+     }
+     .img{
+        display: none;
+     }
+}

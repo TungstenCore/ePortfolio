@@ -9,9 +9,14 @@ body{
        color: darkolivegreen;
        font-family: Arial, Helvetica, sans-serif;
        font-style: normal;
+       min-width: 400px;
+       max-width: 1024px;
+       margin: 0px auto;
+       align-content: center;
 }
 
 h1{
+    text-align: center;
     color: rgb(152, 19, 46);
 }
 
@@ -33,4 +38,7 @@ nav a:visited{
 
 nav a{
     padding-right: 2em;
+}
+img{
+    align-items: center;
 }

@@ -12,8 +12,8 @@ h2{
 
 .FlexResume{
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .flex-item{
@@ -22,13 +22,17 @@ h2{
     min-height: 300px;
     border: solid darkgray;
     background-color: white;
-    flex-wrap: wrap;
+    padding: 12px;
 }
 
 .flex-item h3{
     text-decoration: underline;
     text-align: center;
     font-weight: bolder;
+    color: black;
+}
+
+.flex-item h4{
     color: black;
 }
 

@@ -25,14 +25,10 @@ h2{
     flex-wrap: wrap;
 }
 
-.flexbox-1{
-
+.flex-item h3{
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
 }
 
-.flexbox-2{
-    
-}
-
-.flexbox-3{
-    
-}

@@ -18,13 +18,21 @@ Date: 2023-02-15
     "education experince experince"
     "languages experince experince";
     grid-gap: 0.2rem;
+    background-color: white;
     
+ }
+
+ .grid-container, h2{
+    text-align: center;
+    color: black;
  }
 
 .title{
     grid-area: title;
     text-align: center;
     overflow-wrap: normal;
+    border-bottom: solid black;
+
 }
 .contact{
     grid-area: contact;
@@ -52,7 +60,7 @@ Date: 2023-02-15
 
 .profile{
     grid-area: profile;
-    text-align: center;
+    text-align: left;
     overflow-wrap: normal;
 }
 
@@ -60,6 +68,10 @@ Date: 2023-02-15
     grid-area: experince;
     text-align: center;
     overflow-wrap: normal;
+}
+
+ul{
+    list-style-position: inside;
 }
 
 @media only screen and (max-width: 600px) {

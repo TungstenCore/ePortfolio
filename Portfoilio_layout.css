@@ -42,8 +42,9 @@ Date: 2023-02-15
 
 .skills{
     grid-area: skills;
-    text-align: center;
+    text-align: left;
     overflow-wrap: normal;
+    border-left: solid black;
 }
 
 .education{
@@ -62,6 +63,7 @@ Date: 2023-02-15
     grid-area: profile;
     text-align: left;
     overflow-wrap: normal;
+    border-left: solid black;
 }
 
 .experince{

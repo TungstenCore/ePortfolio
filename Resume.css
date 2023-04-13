@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+Author: Jonathan Barrett
+Date: 2023-02-15
+*/
+
+
+h2{
+    text-align: center;
+    color: darkred;
+}
+
+.FlexResume{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flex-item{
+    min-width: 300px;
+    margin: 20px;
+    min-height: 300px;
+    border: solid darkgray;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.flexbox-1{
+
+}
+
+.flexbox-2{
+    
+}
+
+.flexbox-3{
+    
+}

@@ -23,6 +23,7 @@ h2{
     border: solid darkgray;
     background-color: white;
     padding: 12px;
+    text-align: left;
 }
 
 .flex-item h3{

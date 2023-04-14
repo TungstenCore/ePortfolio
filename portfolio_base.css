@@ -4,9 +4,6 @@ Name: Jonathan Barrett
 Date: 2023-02-01
 */
 @media only screen and (max-width: 640px) {
-  body{
-    display: block;
-  }
 
   div, h2{
       text-align: center;
@@ -83,20 +80,6 @@ Date: 2023-02-01
 
   ul{
       list-style-type: circle;
-  }
-
-  nav{
-      text-align: center;
-      background-color: mediumaquamarine;
-  }
-
-
-  nav a:visited{
-      color: darkseagreen;
-  }
-
-  nav a{
-      padding-right: 2em;
   }
 
   h2{
@@ -182,20 +165,6 @@ Date: 2023-02-01
 
   ul{
       list-style-type: circle;
-  }
-
-  nav{
-      text-align: center;
-      background-color: mediumaquamarine;
-  }
-
-
-  nav a:visited{
-      color: darkseagreen;
-  }
-
-  nav a{
-      padding-right: 2em;
   }
 
   h2{
